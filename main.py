@@ -3,8 +3,6 @@ import time
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
-folders = ['MISC', 'PDFS', 'DOCS', 'IMAGES', 'EXCEL', 'VIDEOS']
-
 def organize_downloads_folder():
 
     

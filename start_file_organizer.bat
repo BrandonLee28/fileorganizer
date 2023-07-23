@@ -1,2 +1,2 @@
 @echo off
-start /b pythonw.exe file_organizer.py
+start /b pythonw.exe main.py
