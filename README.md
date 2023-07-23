@@ -4,7 +4,7 @@ This Python script is designed to automatically organize the files in your Downl
 ## Requirements
 Python 3.x
 watchdog library (install using pip install watchdog)
-##How to Use
+## How to Use
 Make sure you have Python 3.x installed on your system.
 Install the required watchdog library by running pip install watchdog in your terminal or command prompt.
 Download the organize_downloads.py script from this repository and place it in a convenient location.
@@ -28,16 +28,16 @@ Navigate to the directory where the script organize_downloads.py is located.
 Run the script using the command: python organize_downloads.py
 The script will start watching for new files in the Downloads folder.
 Whenever a new file is added to the Downloads folder, it will be automatically organized into the corresponding subfolder based on its file extension.
-##Important Notes
+## Important Notes
 If you have special characters or spaces in your Downloads folder path, you might encounter issues. It's recommended to use the default Downloads folder or modify the script's path variable to match your Downloads folder path correctly.
 The script will run continuously and organize new files as they appear. To stop the script, press Ctrl + C in the terminal or command prompt.
 ##Disclaimer
 Please use this script at your own risk. Although the script is designed to organize files safely, it's always a good idea to back up your important files before running any automation tool.
 
-##License
+## License
 This script is open-source and licensed under the MIT License. You are free to modify, distribute, and use it for personal or commercial purposes.
 
-##Acknowledgments
+## Acknowledgments
 The script uses the watchdog library to handle file system events. Special thanks to the developers and contributors of the watchdog project.
 
 If you encounter any issues, have suggestions for improvements, or want to contribute to this project, feel free to create an issue or submit a pull request on GitHub. Happy organizing!
