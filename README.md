@@ -1,7 +1,7 @@
-#File Organizer for Downloads Folder
+# File Organizer for Downloads Folder
 This Python script is designed to automatically organize the files in your Downloads folder on Windows. It watches for new files in the Downloads folder and moves them to specific subfolders based on their file extensions. This helps you keep your Downloads folder clean and organized.
 
-##Requirements
+## Requirements
 Python 3.x
 watchdog library (install using pip install watchdog)
 ##How to Use
@@ -22,7 +22,7 @@ Audio files (MP3): Stored in the 'AUDIO' folder.
 Executable files (EXE, MSI): Stored in the 'APPLICATIONS' folder.
 Any files with extensions that don't match the above categories will be skipped and left in the Downloads folder.
 
-##Usage
+## Usage
 Open a terminal or command prompt.
 Navigate to the directory where the script organize_downloads.py is located.
 Run the script using the command: python organize_downloads.py
