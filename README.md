@@ -31,13 +31,4 @@ Whenever a new file is added to the Downloads folder, it will be automatically o
 ## Important Notes
 If you have special characters or spaces in your Downloads folder path, you might encounter issues. It's recommended to use the default Downloads folder or modify the script's path variable to match your Downloads folder path correctly.
 The script will run continuously and organize new files as they appear. To stop the script, press Ctrl + C in the terminal or command prompt.
-##Disclaimer
-Please use this script at your own risk. Although the script is designed to organize files safely, it's always a good idea to back up your important files before running any automation tool.
 
-## License
-This script is open-source and licensed under the MIT License. You are free to modify, distribute, and use it for personal or commercial purposes.
-
-## Acknowledgments
-The script uses the watchdog library to handle file system events. Special thanks to the developers and contributors of the watchdog project.
-
-If you encounter any issues, have suggestions for improvements, or want to contribute to this project, feel free to create an issue or submit a pull request on GitHub. Happy organizing!
